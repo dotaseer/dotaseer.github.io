@@ -12,7 +12,7 @@ Thankfully Valve makes Dota 2 match histories publically available, so it is eas
 
 My initial results have been modest, but promising. Overall, the model was able to predict ~58% of matches correctly. This is even less impressive when you know that ~53% of all matches are won by the radiant team... However, not all matches are created equal. For most matches, the model predicts each team has a roughly 50% probability of winning, which could be interpreted as each team drafting equally, leaving the result of the match up to player skill and in game actions. Where the model becomes intesting is when the teams do NOT draft equally. There are many matches where the model was able to predict the winner with 60-80% probability. The distribution of predicted win probabilities for the radiant team can be seen below.
 
-![Radiant Win Histo](dotaseer.github.io/assets/radWinHisto_18May17.png)
+![Radiant Win Histo]({{dotaseer.github.io}}/assets/radWinHisto_18May17.png)
 
 These first findings show that it is possible to some degree to predict the outcome of a Dota 2 match. From here on out, there are a few things I am planning on doing. First and foremost is to work on increasing the accuracy of the model. I also plan on adding a page to this site which will summarize the findings of the model as it progresses. There are also a large number of smaller questions I intend to try and answer such as "What is the ideal combination of Ranged/Melee heroes?", "How important are support heroes?", or "How imporatant are base starting stats (Str/Agi/Int)?". If things go well, and I feel adventurous, I may even attempt to create a drafting tool which will show users the probability of winning for various draft combinations.
 
